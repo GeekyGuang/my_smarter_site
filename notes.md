@@ -8,4 +8,4 @@ p {
     font-family: Georgia, "Times new Roman", Times, serif;
 }
 ```
-
+- html里不管有多少空格/换行，都只显示一个空格
