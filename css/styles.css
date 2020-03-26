@@ -7,3 +7,11 @@ h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 2em;
 }
+
+p.important {
+    font-size: 1.5em;
+}
+
+h3.bigger {
+    font-size: 2.5em;
+}
