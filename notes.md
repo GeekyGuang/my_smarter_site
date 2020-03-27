@@ -9,3 +9,4 @@ p {
 }
 ```
 - html里不管有多少空格/换行，都只显示一个空格
+- font-weight 范围： 100-900 或者：lighter normal bold bolder
