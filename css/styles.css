@@ -20,3 +20,7 @@ h3.bigger {
 .typewriter {
     font-family: "Courier New", Courier, monospace;
 }
+
+.italy {
+    font-style: italic;
+}
