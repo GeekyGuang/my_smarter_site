@@ -24,3 +24,13 @@ h3.bigger {
 .emphasized {
     font-style: italic;
 }
+
+.standout {
+    color: red;
+}
+
+p.spacy {
+    letter-spacing: 1em;
+    word-spacing: 2em;
+    line-height: 2.4em;
+}

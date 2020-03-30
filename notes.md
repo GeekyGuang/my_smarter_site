@@ -13,4 +13,18 @@ p {
 - font-style: italic; 斜体
 - 在默认的html样式中<i>和<em>,<b>和<strong>的样式一样。不过从语义上来讲<i>和<b>是表现元素，仅仅改变外观,<em>和<strong>分别意味着行为的强调和加重强调，在搜索引擎中更受重视,一些语音阅读器也会根据它在阅读时加强语气。另外所有的表现元素其实都是不推荐使用的，应该使用css来代替
 
-- 
+- color
+```css
+.standout {
+    color: #cc0000;
+}
+```
+
+- space
+```css
+p.spacy {
+    letter-spacing: 1em; /*增加*/
+    word-spacing: 2em;
+    line-height: 2.4em; /* normal 是1.2em*/
+}
+```
