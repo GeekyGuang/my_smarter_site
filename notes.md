@@ -42,5 +42,6 @@ p.tabbed {
 p.offset {
     margin: 5em 2em 5em .75em; /* clockwise */
     margin-left: 7em;
+    margin: 2em; /* 四个都一样可简写 */
 }
 ```

@@ -56,3 +56,7 @@ p.offset {
     margin: 5em 2em 5em .75em;
     margin-left: 7em;
 }
+
+.enclosed {
+    border: 5px solid pink;
+}
