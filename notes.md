@@ -28,3 +28,11 @@ p.spacy {
     line-height: 2.4em; /* normal 是1.2em*/
 }
 ```
+- text-indent 缩进一行
+```css
+p.tabbed {
+    text-indent: 1.5em;
+}
+```
+
+- <blockquote>标签 每一行都缩进
