@@ -36,3 +36,11 @@ p.tabbed {
 ```
 
 - <blockquote>标签 每一行都缩进
+
+- margin 
+```css
+p.offset {
+    margin: 5em 2em 5em .75em; /* clockwise */
+    margin-left: 7em;
+}
+```

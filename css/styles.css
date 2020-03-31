@@ -51,3 +51,8 @@ blockquote {
     font-size: .1em;
     color: grey;
 }
+
+p.offset {
+    margin: 5em 2em 5em .75em;
+    margin-left: 7em;
+}
