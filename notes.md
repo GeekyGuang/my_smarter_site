@@ -48,4 +48,10 @@ p.offset {
 
 - em是相对parent的单位，例如body的font-size是1.2em, h2的font-size是0.5em, 则相对default是0.6em
 
-
+- group
+```css
+h1, h3, h5 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+```

@@ -66,3 +66,10 @@ p.offset {
     border: 5px solid pink;
     padding: 10em;
 }
+
+h4, p.grp {
+    color: lightsalmon;
+    padding: .4em;
+    font-size: 2em;
+    text-align: center;
+}
