@@ -50,6 +50,7 @@ p.tabbed {
 blockquote {
     font-size: .1em;
     color: grey;
+    padding: 10em;
 }
 
 p.offset {
@@ -59,4 +60,5 @@ p.offset {
 
 .enclosed {
     border: 5px solid pink;
+    padding: 10em;
 }
