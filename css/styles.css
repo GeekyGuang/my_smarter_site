@@ -1,3 +1,7 @@
+body {
+    color: blue;
+}
+
 p {
     font-family: Georgia, "Times new Roman", Times, serif;
     font-size: .75em;
