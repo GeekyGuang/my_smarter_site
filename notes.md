@@ -55,3 +55,12 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
 ```
+
+- 一个id在html界面只能出现一次
+```css
+h2#warm {
+    color: orange;
+}
+```
+
+

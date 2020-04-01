@@ -73,3 +73,7 @@ h4, p.grp {
     font-size: 2em;
     text-align: center;
 }
+
+h2#warm {
+    color: orange;
+}
