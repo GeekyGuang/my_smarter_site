@@ -62,5 +62,11 @@ h2#warm {
     color: orange;
 }
 ```
+- img
+```html
+<img src=“images/founder.jpg”>
+```
+
+
 
 
