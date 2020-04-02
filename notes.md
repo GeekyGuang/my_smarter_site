@@ -67,6 +67,13 @@ h2#warm {
 <img src=“images/founder.jpg”>
 ```
 
+- Divs are block elements, but we place them side-by-side all the time using something called float
 
+- block element begins and ends a line, without sharing the line with another element; inline element can share a line with other elements
+```css
+img {
+    display: block;
+}
+```
 
 
