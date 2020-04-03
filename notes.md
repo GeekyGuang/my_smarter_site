@@ -80,8 +80,8 @@ img {
 ```css
 img.smack-in-the-middle {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto; 
+    margin-left: auto; /*两个缺一不可*/
 }
 ```
 
