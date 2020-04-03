@@ -85,4 +85,19 @@ img.smack-in-the-middle {
 }
 ```
 
+- float
+```css
+img.float {
+    float: right;
+    margin: 0 2em 2em 2em;
+}
+```
+
+- clear 取消wrap
+```css
+p.no-wrap {
+    clear: both;
+}
+```
+
 
