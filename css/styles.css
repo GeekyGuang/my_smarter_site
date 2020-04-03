@@ -86,3 +86,7 @@ div#special {
 img.has-own-line {
     display: block;
 }
+
+img.inset {
+    margin-left: 2em;
+}
