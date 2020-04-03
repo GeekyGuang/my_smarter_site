@@ -96,3 +96,12 @@ img.smack-in-the-middle {
     margin-right: auto;
     margin-left: auto;
 }
+
+img.float {
+    float: right;
+    margin: 0 2em 2em 2em;
+}
+
+p.no-wrap {
+    clear: both;
+}
