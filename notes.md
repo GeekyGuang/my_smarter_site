@@ -76,4 +76,13 @@ img {
 }
 ```
 
+- Centering an image
+```css
+img.smack-in-the-middle {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+```
+
 

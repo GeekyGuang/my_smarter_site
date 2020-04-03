@@ -90,3 +90,9 @@ img.has-own-line {
 img.inset {
     margin-left: 2em;
 }
+
+img.smack-in-the-middle {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
