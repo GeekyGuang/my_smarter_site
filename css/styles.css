@@ -105,3 +105,24 @@ img.float {
 p.no-wrap {
     clear: both;
 }
+
+a.to-the-top {
+    color: grey;
+}
+
+a.to-the-top:hover {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: orange;
+}
+
+a.to-the-top:active {
+    font-size: 2em;
+    color: red;
+}
+
+a.to-the-top:visited {
+    font-weight: bolder;
+    color: green;
+}

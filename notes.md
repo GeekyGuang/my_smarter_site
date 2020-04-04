@@ -103,4 +103,30 @@ p.no-wrap {
 ```html
  <a href="http://www.stackoverflow.com">Stack Overflow</a> 
 ```
+- back to the top
+```html
+<div class=“content” id=“top”>
+<a href=”#top“>Back to the top</a>
+```
+- open in new windows
+```html
+<a href=“http://www.wikipedia.org” target=“_blank”>
+```
 
+- style links
+```css
+a:hover {
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold;
+    color: orange;
+}
+
+a:active { /*点击时*/
+
+    color: red;
+}
+
+a:visited { /*点击后*/
+    color: green;
+}
+```
