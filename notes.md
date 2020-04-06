@@ -130,3 +130,9 @@ a:visited { /*点击后*/
     color: green;
 }
 ```
+
+- map-area
+```html
+<area shape=“rect” alt=“Tuttle House” coords=“76,42,279,510” href=“tuttle-house.html”>
+<!--coordinate 坐标 rect时是第四象限 -->
+```
