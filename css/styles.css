@@ -126,3 +126,12 @@ a.to-the-top:visited {
     font-weight: bolder;
     color: green;
 }
+
+li {
+    margin-bottom: .75em;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: square;
+}
