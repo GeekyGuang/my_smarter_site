@@ -136,3 +136,13 @@ a:visited { /*点击后*/
 <area shape=“rect” alt=“Tuttle House” coords=“76,42,279,510” href=“tuttle-house.html”>
 <!--coordinate 坐标 rect时是第四象限 -->
 ```
+
+- selector
+```css
+div p  /* div内所有p */
+
+div + p /* div后的第一个相邻的p */
+
+div > p  /* div内第一层的p */
+```
+
