@@ -168,4 +168,16 @@ div > p  /* div内第一层的p */
         <td>沈阳</td>
       </tr>
     </table>
+
+
+    <td colspan="3">休</td>
+    <td rowspan="2">物理</td> <!-- 数字不加引号也没错 -->
 ```
+
+- eliminate spaces
+```css
+table {
+  border-collapse: collapse;
+}
+```
+
