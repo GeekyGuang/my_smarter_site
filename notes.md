@@ -146,3 +146,16 @@ div + p /* div后的第一个相邻的p */
 div > p  /* div内第一层的p */
 ```
 
+- table
+```html
+<table>
+  <tr>
+    <td>row1, column1</td>
+    <td>row1, column2</td>
+  </tr>
+  <tr>
+    <td>row2, column1</td>
+    <td>row2, column2</td>
+  </tr>
+</table>
+```
