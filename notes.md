@@ -178,6 +178,18 @@ div > p  /* div内第一层的p */
 ```css
 table {
   border-collapse: collapse;
+  /*border-collapse: seperate;*/
 }
 ```
+
+- border-spacing
+```css
+table {
+    /*只在border-collapse不是collapse时有效*/
+    border-spacing: 2em 1em; /*第一个是水平距离，第二个垂直距离，如果只给一个参数，就是水平和垂直距离*/
+}
+```
+
+
+
 
