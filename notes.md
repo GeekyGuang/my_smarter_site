@@ -190,6 +190,14 @@ table {
 }
 ```
 
+- vertical-align
+```css
+th, td {
+    vertical-align: top;  /*top center bottom*/
+}
+
+```
+
 
 
 
