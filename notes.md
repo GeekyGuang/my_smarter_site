@@ -201,7 +201,10 @@ th, td {
 - form
 ```html
     <form action="xxx.php" method="post">
-      <input type="text" name="username" size="25" maxlength="40">
+      <input type="text" name="username" size="25" maxlength="40"> <!-- type text password-->
+      <textarea name="message" rows="4" cols="30"></textarea>
+      <input type="submit" value="Send the message"> <!-- Button -->
+      <input type="image" src="http://www.asmarterwaytolearn.com/stooges.jpg" alt="send" width="20" height="30">
     </form>
 ```
 
