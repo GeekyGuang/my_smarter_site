@@ -198,6 +198,12 @@ th, td {
 
 ```
 
+- form
+```html
+    <form action="xxx.php" method="post">
+      <input type="text" name="username" size="25" maxlength="40">
+    </form>
+```
 
 
 
