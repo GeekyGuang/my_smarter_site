@@ -205,6 +205,17 @@ th, td {
       <textarea name="message" rows="4" cols="30"></textarea>
       <input type="submit" value="Send the message"> <!-- Button -->
       <input type="image" src="http://www.asmarterwaytolearn.com/stooges.jpg" alt="send" width="20" height="30">
+      <!-- radio -->
+      Gender:
+      <input type="radio" name="gender" value="male" checked="checked">male
+      <input type="radio" name="gender" value="female">female
+
+      <!-- checkbox -->
+      Gender:
+      <input type="checkbox" name="gender" value="male" checked="checked">male
+      <input type="checkbox" name="gender" value="female">female
+
+      
     </form>
 ```
 
