@@ -215,7 +215,21 @@ th, td {
       <input type="checkbox" name="gender" value="male" checked="checked">male
       <input type="checkbox" name="gender" value="female">female
 
-      
+      <!-- select box -->
+      Your education background:
+      <select name="edu">
+        <option value="小学">小学</option>
+        <option value="中学">中学</option>
+        <option value="社会人">社会人</option>
+      </select>
+
+      <!-- label -->
+      Your education background:
+      <select name="edu">
+        <option value="小学">小学</option>
+        <option value="中学">中学</option>
+        <option value="社会人">社会人</option>
+      </select>
     </form>
 ```
 
