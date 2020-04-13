@@ -224,12 +224,21 @@ th, td {
       </select>
 
       <!-- label -->
-      Your education background:
-      <select name="edu">
-        <option value="小学">小学</option>
-        <option value="中学">中学</option>
-        <option value="社会人">社会人</option>
-      </select>
+      Gender:
+      <label><input type="radio" name="gender" value="male" checked="checked">male</label>
+      <label><input type="radio" name="gender" value="female">female</label>
+
+      <br><br>
+      Your favorite food:<br>
+      <input type="checkbox" name="fav_food" id="app" value="apple" checked="checked">
+      <label for="app">apple</label>
+      <input type="checkbox" name="fav_food" id="mel" value="melon">
+      <label for="mel">melon</label>
+      <input type="checkbox" name="fav_food" id="ora" value="orange">
+      <label for="ora">orange</label>
+      <input type="checkbox" name="fav_food" id="ban" value="banana">
+      <label for="ban">banana</label>
+      <br><br>
     </form>
 ```
 

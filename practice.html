@@ -190,15 +190,19 @@
       <input type="image" src="http://www.asmarterwaytolearn.com/stooges.jpg" alt="send" width="20" height="30">
       <br>
       Gender:
-      <input type="radio" name="gender" value="male" checked="checked">male
-      <input type="radio" name="gender" value="female">female
+      <label><input type="radio" name="gender" value="male" checked="checked">male</label>
+      <label><input type="radio" name="gender" value="female">female</label>
 
       <br><br>
       Your favorite food:<br>
-      <input type="checkbox" name="fav_food" value="apple" checked="checked">apple
-      <input type="checkbox" name="fav_food" value="melon">melon
-      <input type="checkbox" name="fav_food" value="orange">orange
-      <input type="checkbox" name="fav_food" value="banana">banana
+      <input type="checkbox" name="fav_food" id="app" value="apple" checked="checked">
+      <label for="app">apple</label>
+      <input type="checkbox" name="fav_food" id="mel" value="melon">
+      <label for="mel">melon</label>
+      <input type="checkbox" name="fav_food" id="ora" value="orange">
+      <label for="ora">orange</label>
+      <input type="checkbox" name="fav_food" id="ban" value="banana">
+      <label for="ban">banana</label>
       <br><br>
       Your education background:
       <select name="edu">
