@@ -212,6 +212,35 @@
       </select>
     </form>
 
+    <form>
+      <fieldset>
+        <legend>基本信息</legend>
+        <label>姓名 <input type="text" name="firstname" size="20" maxlength="40"></label><br>
+        <label>职业 <input type="text" name="job" size="20" maxlength="40"></label>
+        <br>性别 
+        <label><input type="radio" name="gender" value="male" checked="checked">male</label>
+        <label><input type="radio" name="gender" value="female" checked="checked">female</label>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>其他信息</legend>
+        学历<br>
+        <select name="edu">
+          <option value="小学">小学</option>
+          <option value="中学">中学</option>
+          <option value="大学">大学</option>
+        </select><br><br>
+        爱好<br>
+        <input type="checkbox" name="hobby" id="fo" value="football"><label for="fo">football</label>
+        <input type="checkbox" name="hobby" id="ba" value="baseball"><label for="ba">baseball</label>
+        <input type="checkbox" name="hobby" id="sw" value="swimming"><label for="sw">swimming</label>
+        <input type="checkbox" name="hobby" id="re" value="reading"><label for="re">reading</label>
+        <br>其他<br>
+        <textarea name="message" rows="4" cols="20"></textarea>
+      </fieldset>
+      <input type="submit" value="send">
+    </form>
+
 
   </body>
 </html>
