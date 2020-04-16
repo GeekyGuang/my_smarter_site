@@ -221,6 +221,13 @@ div#header h2 {
     color: white;
     font-size: 2em;
     margin-left: 2%;
-    padding: 0;
+    padding-top: .15em;
+    border: 1px solid blue;
+}
+
+img#logo {
+    border: 1px solid blue;
+    float: left;
+    margin: 1em;
 }
 
