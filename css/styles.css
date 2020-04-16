@@ -181,3 +181,27 @@ input[type="submit"] {
 legend {
     font-weight: 700;
 }
+
+div#main {
+    width: 20%;
+    font-size: 2em;
+    margin: 0 auto 0 auto;
+    border: 1px solid red;
+}
+
+div#d1 {
+    width: 30%;
+    float: left;
+    border: 1px solid red;
+}
+
+div#d2 {
+    width: 65%;
+    float: right;
+    border: 1px solid red;
+}
+
+div.no-wrap {
+    clear: both;
+    border: 1px solid red;
+}

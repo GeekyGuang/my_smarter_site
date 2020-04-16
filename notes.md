@@ -246,6 +246,35 @@ th, td {
 <!-- html -->
 /* css */
 
+- div
+the most important function of divs is layout positioning. 
+div就是个大箱子，把其他小箱子装进去
+
+After coding side-by-side divs in HTML, you’d code an empty div whose only
+purpose is to clear the float above it.
+<div class=“no-wrap”></div>
+
+```css
+div#d1 {
+    width: 30%;
+    float: left;
+    border: 1px solid red;
+}
+
+div#d2 {
+    width: 65%;
+    float: right;
+    border: 1px solid red;
+}
+
+div.no-wrap {
+    clear: both;
+    border: 1px solid red;
+}
+```
+
+
+
 
 
 
