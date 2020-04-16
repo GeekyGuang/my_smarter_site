@@ -276,7 +276,15 @@ div.no-wrap {
 - avoid pixels
 > we’re avoiding pixels because they prevent the page from adapting to different-size windows.
 
-
+- fixed positon
+```css
+/* 不会随屏幕滚动 */
+div#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+```
 
 
 

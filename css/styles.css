@@ -210,7 +210,7 @@ div#header {
     border: 1px solid red;
     width: 100%;
     background-color: #990000;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
 }
