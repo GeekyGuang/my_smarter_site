@@ -286,6 +286,14 @@ div#header {
 }
 ```
 
+- When you specify position: absolute or position: fixed, you remove the div from the normal flow of the HTML.
+other elements ignore it, They behave as if it weren’t there.
+
+- z-index
+```css
+z-index: -1;
+``
+
 
 
 

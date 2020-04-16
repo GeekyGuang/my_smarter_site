@@ -215,7 +215,7 @@ div#header {
     top: 0;
 }
 
-div#header h2 {
+div#header h2, div#spacer h2 {
     font-family: Verdana, Geneva, sans-serif;
     font-weight: 900;
     color: white;
@@ -225,9 +225,19 @@ div#header h2 {
     border: 1px solid blue;
 }
 
-img#logo {
+div#header img, div#spacer img {
     border: 1px solid blue;
     float: left;
     margin: 1em;
+}
+
+div#spacer {
+    width: 100%;
+    visibility: hidden;
+    margin: 1em;
+}
+
+p.clearFloat {
+    clear: both;
 }
 
