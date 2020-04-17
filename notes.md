@@ -301,6 +301,12 @@ a {
 }
 ```
 
+- 精准选择
+```css
+div#nav ul li a {  /*只作用在li内的a*/
+  color: red;
+}
+```
 
 
 
