@@ -251,7 +251,7 @@ the most important function of divs is layout positioning.
 div就是个大箱子，把其他小箱子装进去
 
 After coding side-by-side divs in HTML, you’d code an empty div whose only
-purpose is to clear the float above it.
+purpose is to clear the float above or under it.
 <div class=“no-wrap”></div>
 
 ```css
@@ -305,6 +305,13 @@ a {
 ```css
 div#nav ul li a {  /*只作用在li内的a*/
   color: red;
+}
+```
+
+- 收缩div, limit its width to the width of its contents
+```css
+div {
+  display: inline-block;
 }
 ```
 
