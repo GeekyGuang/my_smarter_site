@@ -294,6 +294,15 @@ other elements ignore it, They behave as if it weren’t there.
 z-index: -1;
 ``
 
+- 去掉a标签下划线
+```css
+a {
+    text-decoration: none;  /* 只能作用在a标签上 */
+}
+```
+
+
+
 
 
 

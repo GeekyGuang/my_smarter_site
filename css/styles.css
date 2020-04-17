@@ -241,3 +241,16 @@ p.clearFloat {
     clear: both;
 }
 
+div#navbar {
+    clear: both;
+}
+
+div#navbar ul {
+    list-style-type: none;
+}
+
+div#navbar a {
+    text-decoration: none;
+}
+
+
