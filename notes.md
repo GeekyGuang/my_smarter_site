@@ -315,7 +315,13 @@ div {
 }
 ```
 
-
+- 设置a标签的padding
+```css
+a {
+  display: inline-block;  /*或者设成block, 但是width默认是100%*/
+  padding: 2em;
+}
+```
 
 
 
