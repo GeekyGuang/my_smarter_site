@@ -323,6 +323,24 @@ a {
 }
 ```
 
+- background-image
+```css
+body {
+    background-image: url("/images/bg.jpg");
+    background-repeat: repeat-x; /*repeat-x横向平铺，repeat-y纵向平铺，去掉这个属性则默认纵横平铺*/
+}
+
+
+body {
+    color: blue;
+    background-image: url("/images/bg2.jpg");
+    background-repeat: no-repeat;  /* 不平铺 */
+    background-position: right top; /* 位置 horizontal right center left vertical top center bottom */
+    background-attachment: fixed; /* scroll滚动 fixed 固定不动 */
+}
+
+```
+
 
 
 

@@ -1,5 +1,9 @@
 body {
     color: blue;
+    background-image: url("/images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 p {
@@ -184,6 +188,7 @@ legend {
 
 div#main {
     width: 20%;
+    background-image: url("/images/bg.jpg");;
     font-size: 2em;
     margin: 0 auto 0 auto;
     border: 1px solid red;
