@@ -243,7 +243,6 @@ p.clearFloat {
 
 div#navbar {
     clear: both;
-    display: inline-block;
 }
 
 div#navbar ul {
@@ -252,8 +251,11 @@ div#navbar ul {
 }
 
 div#navbar ul li {
-    background-color: blue;
-    margin-bottom: .25em;
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+
 }
 
 div#navbar ul li a {
@@ -266,4 +268,15 @@ div#navbar ul li a {
     padding: .35em;
 }
 
+li.changecolor {
+    background-color: blue;
+}
+
+li.changecolor:hover {
+    background-color: lightblue;
+}
+
+li.changecolor:active {
+    background-color: darkblue;
+}
 
