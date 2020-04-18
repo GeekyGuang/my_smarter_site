@@ -290,3 +290,24 @@ iframe {
     margin: 1em;
 }
 
+audio {
+    clear: both;
+    display: block;
+}
+div.pear {
+    width: 90%;
+}
+
+div.pear p.hhh {
+    width: 50%;
+    position: relative;
+    right: -200px;
+    top: 20px;
+}
+
+div#ddd {
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

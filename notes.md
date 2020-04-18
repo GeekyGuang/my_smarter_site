@@ -341,6 +341,25 @@ body {
 
 ```
 
+- ems, percentage, pixel
+Ems — Use them for typography, margins, and padding.
+Percentages — Use them for divs, tables, iframes, and sometimes margins and
+padding.
+Pixels — Use them for images, borders, windows, iframes, and fixed, absolute, and
+relative positioning (see next chapter)
+
+- position
+> absolute 
+绝对定位（absolute）位置是相对最近**已经定位**的父元素，如果父元素本身没有使用position定位，则相对于文档（html）定位；绝对定位使用通常是父级定义position:relative定位，子级定义position:absolute绝对定位属性，并且子级使用left或right和top或bottom进行绝对定位
+> relative 相对normal位置定位,不会脱离文档流
+> static 默认值
+> absolute和fixed会脱离文档流
+
+- z-index 默认为0，数值越大越在前面
+
+
+
+
 
 
 
