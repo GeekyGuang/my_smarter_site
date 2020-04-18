@@ -285,3 +285,8 @@ li.changecolor:active {
     background-color: darkblue;
 }
 
+iframe {
+    float: left;
+    margin: 1em;
+}
+
