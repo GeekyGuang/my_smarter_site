@@ -357,6 +357,15 @@ relative positioning (see next chapter)
 
 - z-index 默认为0，数值越大越在前面
 
+- 不同屏幕尺寸参数 media queries
+```css
+@media only screen and (max-device-width: 500px) {
+    p.hhh {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+}
+```
+
 
 
 

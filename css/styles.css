@@ -311,3 +311,9 @@ div#ddd {
     bottom: 0;
     right: 0;
 }
+
+@media only screen and (max-device-width: 500px) {
+    p.hhh {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+}
