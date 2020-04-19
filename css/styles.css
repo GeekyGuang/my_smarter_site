@@ -299,10 +299,12 @@ div.pear {
 }
 
 div.pear p.hhh {
-    width: 50%;
     position: relative;
     right: -200px;
     top: 20px;
+    max-width: 400px;
+    max-height: 100px;
+    overflow: scroll;
 }
 
 div#ddd {

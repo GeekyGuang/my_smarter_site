@@ -366,6 +366,31 @@ relative positioning (see next chapter)
 }
 ```
 
+- max-height/min-height/max-width/min-width/overflow:hidden/scroll
+
+```css
+p {
+    max-width: 400px;
+    max-height: 200px;
+    overflow: scroll;
+}
+```
+
+- things on top
+```html
+<!DOCTYPE html> <!-- 不是必须的 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+```
+
+- meta description
+If you’re hoping people will find your page through a search engine and then click on the link, you need a meta description.
+```html
+<meta name="description" content="This is my html&css practice">
+```
+
 
 
 
